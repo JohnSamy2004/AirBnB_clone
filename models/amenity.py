@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
-""" Class Amenity """
+#!/usr/bin/python3
+"""Defines a class Amenity that is responsible for handling amenities"""
 
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """ Class Amenity """
+    """Amenity class that handles amenities throughout the site"""
     name = ""

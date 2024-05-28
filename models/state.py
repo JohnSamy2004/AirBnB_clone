@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-""" Class State """
+"""defines a class that inherits from BaseModel and 
+handles the states the apartments are located"""
 
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ Class State """
+    """a class that represents a state"""
     name = ""
